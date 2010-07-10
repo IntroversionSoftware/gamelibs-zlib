@@ -21,7 +21,7 @@ libdir := $(prefix)/lib
 includedir := $(prefix)/include
 
 HEADERS = zlib.h zconf.h
-SOURCES = adler32.c compress.c crc32.c gzio.c uncompr.c deflate.c trees.c \
+SOURCES = adler32.c compress.c crc32.c uncompr.c deflate.c trees.c \
           zutil.c inflate.c infback.c inftrees.c inffast.c
 
 HEADERS_INST := $(patsubst %,$(includedir)/%,$(HEADERS))
