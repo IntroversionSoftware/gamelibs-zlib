@@ -2991,10 +2991,138 @@
 		<File
 			RelativePath="..\..\contrib\masmx86\inffas32.asm"
 			>
+			<FileConfiguration
+				Name="DLL ASM Debug|x64"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="MASM"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="DLL Release|x64"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="MASM"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="LIB ASM Debug|x64"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="MASM"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="DLL ASM Release|x64"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="MASM"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="LIB Debug|x64"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="MASM"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="DLL Debug|x64"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="MASM"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="LIB Release|x64"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="MASM"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="LIB ASM Release|x64"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="MASM"
+				/>
+			</FileConfiguration>
 		</File>
 		<File
 			RelativePath="..\..\contrib\masmx86\match686.asm"
 			>
+			<FileConfiguration
+				Name="DLL ASM Debug|x64"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="MASM"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="DLL Release|x64"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="MASM"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="LIB ASM Debug|x64"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="MASM"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="DLL ASM Release|x64"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="MASM"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="LIB Debug|x64"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="MASM"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="DLL Debug|x64"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="MASM"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="LIB Release|x64"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="MASM"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="LIB ASM Release|x64"
+				ExcludedFromBuild="true"
+				>
+				<Tool
+					Name="MASM"
+				/>
+			</FileConfiguration>
 		</File>
 		<File
 			RelativePath="README.txt"
