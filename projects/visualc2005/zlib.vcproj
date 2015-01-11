@@ -56,7 +56,6 @@
 				Name="VCCLCompilerTool"
 				AdditionalIncludeDirectories="../.."
 				PreprocessorDefinitions="WIN32;_DEBUG;ASMV;ASMINF"
-				MinimalRebuild="true"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -140,11 +139,8 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				Optimization="0"
 				AdditionalIncludeDirectories="../.."
 				PreprocessorDefinitions="WIN32;_DEBUG;ASMV;ASMINF"
-				MinimalRebuild="true"
-				BasicRuntimeChecks="3"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -230,7 +226,6 @@
 				Name="VCCLCompilerTool"
 				AdditionalIncludeDirectories="../.."
 				PreprocessorDefinitions="WIN32;NDEBUG"
-				StringPooling="true"
 				EnableFunctionLevelLinking="true"
 			/>
 			<Tool
@@ -314,11 +309,8 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				Optimization="2"
-				InlineFunctionExpansion="1"
 				AdditionalIncludeDirectories="../.."
 				PreprocessorDefinitions="WIN32;NDEBUG"
-				StringPooling="true"
 				EnableFunctionLevelLinking="true"
 			/>
 			<Tool
@@ -398,7 +390,6 @@
 				Name="VCCLCompilerTool"
 				AdditionalIncludeDirectories="../.."
 				PreprocessorDefinitions="WIN32;_DEBUG;ASMV;ASMINF"
-				MinimalRebuild="true"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -462,11 +453,8 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				Optimization="0"
 				AdditionalIncludeDirectories="../.."
 				PreprocessorDefinitions="WIN32;_DEBUG;ASMV;ASMINF"
-				MinimalRebuild="true"
-				BasicRuntimeChecks="3"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -537,7 +525,6 @@
 				Name="VCCLCompilerTool"
 				AdditionalIncludeDirectories="../.."
 				PreprocessorDefinitions="WIN32;NDEBUG;ASMV;ASMINF"
-				StringPooling="true"
 				EnableFunctionLevelLinking="true"
 			/>
 			<Tool
@@ -621,11 +608,8 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				Optimization="2"
-				InlineFunctionExpansion="1"
 				AdditionalIncludeDirectories="../.."
 				PreprocessorDefinitions="WIN32;NDEBUG;ASMV;ASMINF"
-				StringPooling="true"
 				EnableFunctionLevelLinking="true"
 			/>
 			<Tool
@@ -705,7 +689,6 @@
 				Name="VCCLCompilerTool"
 				AdditionalIncludeDirectories="../.."
 				PreprocessorDefinitions="WIN32;_DEBUG"
-				MinimalRebuild="true"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -769,11 +752,8 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				Optimization="0"
 				AdditionalIncludeDirectories="../.."
 				PreprocessorDefinitions="WIN32;_DEBUG"
-				MinimalRebuild="true"
-				BasicRuntimeChecks="3"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -844,7 +824,6 @@
 				Name="VCCLCompilerTool"
 				AdditionalIncludeDirectories="../.."
 				PreprocessorDefinitions="WIN32;_DEBUG"
-				MinimalRebuild="true"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -928,11 +907,8 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				Optimization="0"
 				AdditionalIncludeDirectories="../.."
 				PreprocessorDefinitions="WIN32;_DEBUG"
-				MinimalRebuild="true"
-				BasicRuntimeChecks="3"
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -1012,7 +988,6 @@
 				Name="VCCLCompilerTool"
 				AdditionalIncludeDirectories="../.."
 				PreprocessorDefinitions="WIN32;NDEBUG"
-				StringPooling="true"
 				EnableFunctionLevelLinking="true"
 			/>
 			<Tool
@@ -1077,11 +1052,8 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				Optimization="2"
-				InlineFunctionExpansion="1"
 				AdditionalIncludeDirectories="../.."
 				PreprocessorDefinitions="WIN32;NDEBUG"
-				StringPooling="true"
 				EnableFunctionLevelLinking="true"
 			/>
 			<Tool
@@ -1147,7 +1119,6 @@
 				Name="VCCLCompilerTool"
 				AdditionalIncludeDirectories="../.."
 				PreprocessorDefinitions="WIN32;NDEBUG;ASMV;ASMINF"
-				StringPooling="true"
 				EnableFunctionLevelLinking="true"
 			/>
 			<Tool
@@ -1212,11 +1183,8 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				Optimization="2"
-				InlineFunctionExpansion="1"
 				AdditionalIncludeDirectories="../.."
 				PreprocessorDefinitions="WIN32;NDEBUG;ASMV;ASMINF"
-				StringPooling="true"
 				EnableFunctionLevelLinking="true"
 			/>
 			<Tool
@@ -3207,7 +3175,7 @@
 						<Tool
 							Name="VCCustomBuildTool"
 							Description=""
-							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;"
+							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;&#x0D;&#x0A;"
 							Outputs="$(IntDir)/$(InputName).obj"
 						/>
 					</FileConfiguration>
@@ -3225,7 +3193,7 @@
 						<Tool
 							Name="VCCustomBuildTool"
 							Description=""
-							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;"
+							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;&#x0D;&#x0A;"
 							Outputs="$(IntDir)/$(InputName).obj"
 						/>
 					</FileConfiguration>
@@ -3243,7 +3211,7 @@
 						<Tool
 							Name="VCCustomBuildTool"
 							Description=""
-							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;"
+							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;&#x0D;&#x0A;"
 							Outputs="$(IntDir)/$(InputName).obj"
 						/>
 					</FileConfiguration>
@@ -3261,7 +3229,7 @@
 						<Tool
 							Name="VCCustomBuildTool"
 							Description=""
-							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;"
+							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;&#x0D;&#x0A;"
 							Outputs="$(IntDir)/$(InputName).obj"
 						/>
 					</FileConfiguration>
@@ -3279,7 +3247,7 @@
 						<Tool
 							Name="VCCustomBuildTool"
 							Description=""
-							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;"
+							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;&#x0D;&#x0A;"
 							Outputs="$(IntDir)/$(InputName).obj"
 						/>
 					</FileConfiguration>
@@ -3297,7 +3265,7 @@
 						<Tool
 							Name="VCCustomBuildTool"
 							Description=""
-							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;"
+							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;&#x0D;&#x0A;"
 							Outputs="$(IntDir)/$(InputName).obj"
 						/>
 					</FileConfiguration>
@@ -3315,7 +3283,7 @@
 						<Tool
 							Name="VCCustomBuildTool"
 							Description=""
-							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;"
+							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;&#x0D;&#x0A;"
 							Outputs="$(IntDir)/$(InputName).obj"
 						/>
 					</FileConfiguration>
@@ -3333,7 +3301,7 @@
 						<Tool
 							Name="VCCustomBuildTool"
 							Description=""
-							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;"
+							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;&#x0D;&#x0A;"
 							Outputs="$(IntDir)/$(InputName).obj"
 						/>
 					</FileConfiguration>
@@ -3455,7 +3423,7 @@
 						<Tool
 							Name="VCCustomBuildTool"
 							Description=""
-							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;"
+							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;&#x0D;&#x0A;"
 							Outputs="$(IntDir)/$(InputName).obj"
 						/>
 					</FileConfiguration>
@@ -3473,7 +3441,7 @@
 						<Tool
 							Name="VCCustomBuildTool"
 							Description=""
-							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;"
+							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;&#x0D;&#x0A;"
 							Outputs="$(IntDir)/$(InputName).obj"
 						/>
 					</FileConfiguration>
@@ -3491,7 +3459,7 @@
 						<Tool
 							Name="VCCustomBuildTool"
 							Description=""
-							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;"
+							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;&#x0D;&#x0A;"
 							Outputs="$(IntDir)/$(InputName).obj"
 						/>
 					</FileConfiguration>
@@ -3509,7 +3477,7 @@
 						<Tool
 							Name="VCCustomBuildTool"
 							Description=""
-							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;"
+							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;&#x0D;&#x0A;"
 							Outputs="$(IntDir)/$(InputName).obj"
 						/>
 					</FileConfiguration>
@@ -3527,7 +3495,7 @@
 						<Tool
 							Name="VCCustomBuildTool"
 							Description=""
-							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;"
+							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;&#x0D;&#x0A;"
 							Outputs="$(IntDir)/$(InputName).obj"
 						/>
 					</FileConfiguration>
@@ -3545,7 +3513,7 @@
 						<Tool
 							Name="VCCustomBuildTool"
 							Description=""
-							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;"
+							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;&#x0D;&#x0A;"
 							Outputs="$(IntDir)/$(InputName).obj"
 						/>
 					</FileConfiguration>
@@ -3563,7 +3531,7 @@
 						<Tool
 							Name="VCCustomBuildTool"
 							Description=""
-							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;"
+							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;&#x0D;&#x0A;"
 							Outputs="$(IntDir)/$(InputName).obj"
 						/>
 					</FileConfiguration>
@@ -3581,7 +3549,7 @@
 						<Tool
 							Name="VCCustomBuildTool"
 							Description=""
-							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;"
+							CommandLine="ml64.exe /nologo /Fo &quot;$(IntDir)/$(InputName).obj&quot; /c &quot;$(InputPath)&quot;&#x0D;&#x0A;"
 							Outputs="$(IntDir)/$(InputName).obj"
 						/>
 					</FileConfiguration>
