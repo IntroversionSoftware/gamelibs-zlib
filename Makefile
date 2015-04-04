@@ -11,7 +11,7 @@ endif
 endif
 
 LIB    = libz.a
-AR    ?= ar
+AR    ?= ar rcu
 CC    ?= gcc
 RANLIB?= ranlib
 RM    ?= rm -f
@@ -52,7 +52,7 @@ clean:
 distclean: clean
 
 $(LIB): $(OBJECTS)
-	$(QUIET_AR)$(AR) rcu $@ $^
+	$(QUIET_AR)$(AR) $@ $^
 	$(QUIET_RANLIB)$(RANLIB) $@
 
 %.o: %.c .cflags
