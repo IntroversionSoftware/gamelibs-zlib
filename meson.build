@@ -4,6 +4,10 @@ compiler = meson.get_compiler('c')
 link_deps = [
 ]
 
+c_flags = [
+    '-D_GNU_SOURCE',
+]
+
 incdirs = ['.']
 
 sources = [
@@ -29,6 +33,7 @@ incdirs = include_directories(incdirs)
 lib = static_library(
     'z',
     sources,
+    c_args: c_flags,
     include_directories: incdirs,
     dependencies: link_deps,
 )
