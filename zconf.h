@@ -229,12 +229,6 @@
 #  define STDC
 #endif
 
-#ifndef STDC
-#  ifndef const /* cannot use !defined(STDC) && !defined(const) on Mac */
-#    define const       /* note: need a more gentle solution here */
-#  endif
-#endif
-
 #ifndef z_const
 #  ifdef ZLIB_CONST
 #    define z_const const
