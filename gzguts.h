@@ -24,6 +24,9 @@
 #  include <stdlib.h>
 #  include <limits.h>
 #endif
+#ifdef __MACH__
+#  include <unistd.h> /* for lseek() */
+#endif
 
 #ifndef _POSIX_SOURCE
 #  define _POSIX_SOURCE
