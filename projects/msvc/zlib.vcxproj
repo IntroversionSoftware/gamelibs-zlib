@@ -53,6 +53,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{3D9F174B-2909-4834-A3D7-892E8D442A5D}</ProjectGuid>
     <RootNamespace>zlib</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LIB Release|Win32'" Label="Configuration">
@@ -163,99 +164,51 @@
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='LIB Release|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\LIB.props" />
-    <Import Project="..\..\..\Release.props" />
-    <Import Project="..\..\..\Common.props" />
-    <Import Project="..\..\..\vectorcall.props" />
-    <Import Project="..\..\..\x86.props" />
+    <Import Project="..\..\..\Master.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\DLL.props" />
-    <Import Project="..\..\..\Debug.props" />
-    <Import Project="..\..\..\Common.props" />
-    <Import Project="..\..\..\vectorcall.props" />
-    <Import Project="..\..\..\x86.props" />
+    <Import Project="..\..\..\Master.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='LIB Debug|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\LIB.props" />
-    <Import Project="..\..\..\Debug.props" />
-    <Import Project="..\..\..\Common.props" />
-    <Import Project="..\..\..\vectorcall.props" />
-    <Import Project="..\..\..\x86.props" />
+    <Import Project="..\..\..\Master.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\DLL.props" />
-    <Import Project="..\..\..\Release.props" />
-    <Import Project="..\..\..\Common.props" />
-    <Import Project="..\..\..\vectorcall.props" />
-    <Import Project="..\..\..\x86.props" />
+    <Import Project="..\..\..\Master.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='LIB Release|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\LIB.props" />
-    <Import Project="..\..\..\Release.props" />
-    <Import Project="..\..\..\Common.props" />
-    <Import Project="..\..\..\vectorcall.props" />
-    <Import Project="..\..\..\x86_64.props" />
+    <Import Project="..\..\..\Master.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='LIB Release|ARM64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\LIB.props" />
-    <Import Project="..\..\..\Release.props" />
-    <Import Project="..\..\..\Common.props" />
-    <Import Project="..\..\..\vectorcall.props" />
-    <Import Project="..\..\..\ARM64.props" />
+    <Import Project="..\..\..\Master.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Debug|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\DLL.props" />
-    <Import Project="..\..\..\Debug.props" />
-    <Import Project="..\..\..\Common.props" />
-    <Import Project="..\..\..\vectorcall.props" />
-    <Import Project="..\..\..\x86_64.props" />
+    <Import Project="..\..\..\Master.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Debug|ARM64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\DLL.props" />
-    <Import Project="..\..\..\Debug.props" />
-    <Import Project="..\..\..\Common.props" />
-    <Import Project="..\..\..\vectorcall.props" />
-    <Import Project="..\..\..\ARM64.props" />
+    <Import Project="..\..\..\Master.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='LIB Debug|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\LIB.props" />
-    <Import Project="..\..\..\Debug.props" />
-    <Import Project="..\..\..\Common.props" />
-    <Import Project="..\..\..\vectorcall.props" />
-    <Import Project="..\..\..\x86_64.props" />
+    <Import Project="..\..\..\Master.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='LIB Debug|ARM64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\LIB.props" />
-    <Import Project="..\..\..\Debug.props" />
-    <Import Project="..\..\..\Common.props" />
-    <Import Project="..\..\..\vectorcall.props" />
-    <Import Project="..\..\..\ARM64.props" />
+    <Import Project="..\..\..\Master.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Release|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\DLL.props" />
-    <Import Project="..\..\..\Release.props" />
-    <Import Project="..\..\..\Common.props" />
-    <Import Project="..\..\..\vectorcall.props" />
-    <Import Project="..\..\..\x86_64.props" />
+    <Import Project="..\..\..\Master.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Release|ARM64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\..\DLL.props" />
-    <Import Project="..\..\..\Release.props" />
-    <Import Project="..\..\..\Common.props" />
-    <Import Project="..\..\..\vectorcall.props" />
-    <Import Project="..\..\..\ARM64.props" />
+    <Import Project="..\..\..\Master.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
